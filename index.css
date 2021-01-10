@@ -1,0 +1,17 @@
+
+.index-content-body{
+  text-align: center;
+  background-color: white;
+    padding: 10px;
+
+}
+
+.col-padding-for-topic{
+  padding-top: 4rem;
+  padding-bottom: 1rem;
+  padding-left: 1.5rem;
+}
+
+.col-padding-for-data{
+  padding-bottom: 1rem;
+}
