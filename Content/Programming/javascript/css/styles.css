@@ -167,7 +167,7 @@ li a:hover {
 .sidenav a:hover:not(.active){
   background-color:  #555;
   color: white;
-  padding-left: 35px;
+  padding-left: 25px;
 }
 
 

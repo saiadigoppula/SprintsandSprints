@@ -1,9 +1,9 @@
 document.getElementById("myDIV").innerHTML +=`
 <div class="didnav-subject-title"> Javascript </div>
   <a href="javascript_intro.html" class="button javascript_intro">JS Intro</a>  
-  <a href="javascript_Comments.html" class="button javascript_intro">JS Comments</a> 
-  <a href="javascript_Syntax.html" class="button javascript_intro">JS Syntax</a>  
-  <a href="javascript_Variables.html" class="button javascript_intro">JS Variables</a>
+  <a href="javascript_Comments.html" class="button javascript_Comments">JS Comments</a> 
+  <a href="javascript_Syntax.html" class="button javascript_Syntax">JS Syntax</a>  
+  <a href="javascript_Variables.html" class="button avascript_Variables">JS Variables</a>
   <a href="javascript_Operators.html" class="button javascript_intro">JS Operators</a> 
   <a href="javascript_Data_Types.html" class="button javascript_intro">JS Data Types</a>
   <a href="javascript_Strings.html" class="button javascript_intro">JS Strings</a> 
@@ -22,5 +22,18 @@ document.getElementById("myDIV").innerHTML +=`
   <a href="javascript_Date_Methods.html" class="button javascript_intro">JS Date Methods</a>
   <a href="javascript_Date_Formats.html" class="button javascript_intro">JS Date_Formats</a>
   <a href="javascript_For_loop.html" class="button javascript_intro">JS For loop</a>
+  <a href="javascript_While_loop.html" class="button javascript_intro">JS While loop</a>
+  <a href="javascript_Break_continue.html" class="button javascript_intro">JS Break & continue</a>
+  <a href="javascript_Functions.html" class="button javascript_intro">JS Functions </a>
+  <a href="javascript_RegExp.html" class="button javascript_intro">JS RegExp</a>
+  <a href="javascript_Let.html" class="button javascript_intro">JS Let</a>
+  <a href="javascript_Const.html" class="button javascript_intro">JS Const</a>
+  <a href="javascript_Set_Datatype.html" class="button javascript_intro">JS Set Datatype</a>
+  <a href="javascript_Errors.html" class="button javascript_intro">JS Errors</a>
+  <a href="javascript_This_keyword.html" class="button javascript_intro">JS This keyword</a>
+  <a href="javascript_Arrow_Function.html" class="button javascript_intro">JS Arrow Function</a>
+  <a href="javascript_Arrow_Function_Methods.html" class="button javascript_intro">JS Arrow Function Methods</a>
+  <a href="javascript_Json.html" class="button javascript_intro">JS Json</a>
+  <a href="javascript_Classes.html" class="button javascript_intro">JS Classes</a>
 
 `;
