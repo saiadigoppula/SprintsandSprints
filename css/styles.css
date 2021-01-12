@@ -253,6 +253,9 @@ li a:hover {
     display: none;
   }
  
+  .icons{
+    display: none;
+  }
  
 
 }
