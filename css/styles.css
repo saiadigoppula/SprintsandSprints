@@ -240,9 +240,7 @@ li a:hover {
     padding: 0 0;
   }
 
-  .social_media{
-    display: none;
-  }
+  
 
 
 }
@@ -253,7 +251,9 @@ li a:hover {
   .menu-button{
     display: none;
   }
- 
+  .social_media{
+    display: none;
+  }
 
 }
 
