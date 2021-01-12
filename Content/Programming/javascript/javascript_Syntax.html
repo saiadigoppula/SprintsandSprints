@@ -55,69 +55,119 @@
 
 
     <div class="subject-title">
-      JavaScript Introduction
+      JavaScript Syntax
     </div>
-    <!--Top Buttons-->
-    <div class="pre-next-buttons">
-      <button type="button" class="btn btn-primary Previous-button" 
-      onclick="window.location.href='../../../index.html'">
-      <i class="fas fa-caret-left"></i> Previous</button>
-      
-      <button type="button" class="btn btn-primary Next-button" 
-      onclick="window.location.href='javascript_if.html'">
-      Next <i class="fas fa-caret-right"></i></button>
-    </div>
-    <!--Top Buttons End-->
+
+<!--Buttom Buttons-->
+<div class="pre-next-buttons" id ="pre-next-buttons"></div>
+<script src="Container/next_previvious.js" type="text/javascript"></script>
+<!--Buttom Buttons End-->
 
     <!-- Top information -->
     <div class="topic-info">
-      <p>JavaScript is the programming language of the Web.</p>
-      <p>JavaScript is easy to learn.</p> 
-      <p>javascript run on browser</p>
-      <p>Using javascript we add functionality to page</p>
-      <p>javascript developed by  Brendan Eich</p>
+      <p>Getting into any programming language syntax is important to learn.</p>
+      <p>Programs should be written as per the syntax</p> 
     </div>
     <!-- Top information End-->
 
-    <!--Example -->
+    <!--Example 1-->
 <hr>
 <div class="Example-info">
 
-  <h2>Simple Example </h2>
-    <p>Below code will print data to console</p>
+  <h2>JavaScript is Case Sensitive </h2>
+    <p>JavaScript is a Case Sensitive language</p>
+    <p>'NAME' is different as 'name'</p>
   </div>
 
 <div class="exampe-box">
 <div class="code-play">
 <pre>
-console.log("Hello-World");
+var NAME = "kick";
+var name = "light";
+console.log(NAME + name); // NAME is not same as name 
 </pre>
 </div>
 <div class="example-output">
 <h3>OUTPUT</h3>
-<p>Hello-World //output in console</p>
+<p class="example_p">kicklight //output in console</p>
 </div>
 </div>
-  <!--Example End -->
+  <!--Example End 1-->
+
+
+
+     <!--Example 2-->
+<hr>
+<div class="Example-info">
+
+  <h2>JavaScript Keywords </h2>
+    <p>JavaScript Keywords Reserved words </p>
+    <p>JavaScript Keywords are used to perform actions </p>
+    <p>JavaScript Keywords are not allowd to use as variables</p>
+    <p> var var = 5; // is not allowd</p>
+  </div>
+
+<div class="exampe-box">
+<div class="code-play">
+<pre>
+var var = 5; // is not allowd returns error 
+var age = 25; // age is not a javascript Keyword
+
+console.log(age); 
+</pre>
+</div>
+<div class="example-output">
+<h3>OUTPUT</h3>
+<p class="example_p">25 //output in console</p>
+</div>
+</div>
+  <!--Example End 2-->
+
+
+  <!--Example 3-->
+<hr>
+<div class="Example-info">
+
+  <h2>JavaScript variables </h2>
+    <p>JavaScript variables must staart with  a letter</p>
+    <p>JavaScript variables can also begin with $ and _ </p>
+    <p>JavaScript Keywords are not allowd to use as variables</p>
+    <p>JavaScript variables can contain letters, digits, underscores, and dollar signs.</p>
+  </div>
+
+<div class="exampe-box">
+<div class="code-play">
+<pre>
+var x5 = 5; 
+var _y = 25; 
+
+console.log(x5 + _y); 
+</pre>
+</div>
+<div class="example-output">
+<h3>OUTPUT</h3>
+<p class="example_p">30 //output in console</p>
+</div>
+</div>
+  <!--Example End 3-->
+
+
 
 <!--Green note-->
 <div class="give-note">
-<p>Follow this tutorial to learn javascript from basic to advanced</p>
-<p>Go through the tutorial in a sequence way</p>
-<p>Every topic will contain a example</p>
+<p>It's a good practice to use semicolons end of javascript statements</p>
+<p>javascript throws error if syntax not used </p>
 </div>
 <!--Green note End-->
 
 <!--Buttom Buttons-->
-<div class="pre-next-buttons">
-<button type="button" class="btn btn-primary Previous-button" 
-onclick="window.location.href='../../../index.html'">
-<i class="fas fa-caret-left"></i> Previous</button>
-
-<button type="button" class="btn btn-primary Next-button" 
-onclick="window.location.href='javascript_if.html'">
-Next <i class="fas fa-caret-right"></i></button>
-</div>
+<div class="pre-next-buttons" id ="pre-next-buttons"></div>
+<script src="Container/next_previvious.js" type="text/javascript"></script>
+<!--Buttom Buttons End-->
+<script>
+  window.next_previous('javascript_Comments.html','javascript_Variables.html');
+  //previous and next button
+ </script> 
 <!--Buttom Buttons End-->
 
 
@@ -160,7 +210,7 @@ Next <i class="fas fa-caret-right"></i></button>
 <script src="Container/index.js" type="text/javascript"></script>
 
 <script>
- document.getElementsByClassName("javascript_intro")[0].classList.add("active");
+ document.getElementsByClassName("javascript_Syntax")[0].classList.add("active");
 </script>
 </body>
 </html>

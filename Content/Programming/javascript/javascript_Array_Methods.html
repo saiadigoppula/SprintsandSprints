@@ -51,24 +51,16 @@
 <!--Edditing part-->
 
 
-
-
-
     <div class="subject-title">
       JavaScript Introduction
     </div>
-    <!--Top Buttons-->
-    <div class="pre-next-buttons">
-      <button type="button" class="btn btn-primary Previous-button" 
-      onclick="window.location.href='../../../index.html'">
-      <i class="fas fa-caret-left"></i> Previous</button>
-      
-      <button type="button" class="btn btn-primary Next-button" 
-      onclick="window.location.href='javascript_if.html'">
-      Next <i class="fas fa-caret-right"></i></button>
-    </div>
-    <!--Top Buttons End-->
 
+<!--Buttom Buttons-->
+<div class="pre-next-buttons" id ="pre-next-buttons"></div>
+<script src="Container/next_previvious.js" type="text/javascript"></script>
+<!--Buttom Buttons End-->
+
+    
     <!-- Top information -->
     <div class="topic-info">
       <p>JavaScript is the programming language of the Web.</p>
@@ -109,30 +101,19 @@ console.log("Hello-World");
 <!--Green note End-->
 
 <!--Buttom Buttons-->
-<div class="pre-next-buttons">
-<button type="button" class="btn btn-primary Previous-button" 
-onclick="window.location.href='../../../index.html'">
-<i class="fas fa-caret-left"></i> Previous</button>
-
-<button type="button" class="btn btn-primary Next-button" 
-onclick="window.location.href='javascript_if.html'">
-Next <i class="fas fa-caret-right"></i></button>
-</div>
+<div class="pre-next-buttons" id ="pre-next-buttons"></div>
+<script src="Container/next_previvious.js" type="text/javascript"></script>
 <!--Buttom Buttons End-->
-
-
-
+<script>
+  window.next_previous('../../../index.html','javascript_Comments.html');
+  //previous and next button
+ </script> 
 
 <!--Edditing part End-->
 
 <hr>
 </div>
 <!-- Center Content  End -->
-
-
-
-
-
 
 
 
@@ -155,7 +136,7 @@ Next <i class="fas fa-caret-right"></i></button>
  <!-- container and row  End-->
 </section>  
 </div>
-<!-- content body Ends-->
+<!-- content body End-->
 
 <script src="Container/index.js" type="text/javascript"></script>
 

@@ -55,69 +55,94 @@
 
 
     <div class="subject-title">
-      JavaScript Introduction
+      JavaScript Comments
     </div>
     <!--Top Buttons-->
-    <div class="pre-next-buttons">
-      <button type="button" class="btn btn-primary Previous-button" 
-      onclick="window.location.href='javascript_intro.html'">
-      <i class="fas fa-caret-left"></i> Previous</button>
-      
-      <button type="button" class="btn btn-primary Next-button" 
-      onclick="window.location.href='javascript_Syntax.html'">
-      Next <i class="fas fa-caret-right"></i></button>
-    </div>
+    <div class="pre-next-buttons" id ="pre-next-buttons"></div>
+    <script src="Container/next_previvious.js" type="text/javascript"></script>
+    
     <!--Top Buttons End-->
 
     <!-- Top information -->
     <div class="topic-info">
-      <p>JavaScript is the programming language of the Web.</p>
-      <p>JavaScript is easy to learn.</p> 
-      <p>javascript run on browser</p>
-      <p>Using javascript we add functionality to page</p>
-      <p>javascript developed by  Brendan Eich</p>
+      <p>JavaScript comments are used to  easily describe the purpose of the code and any algorithms</p> 
+      <p>commented code or text will not executed</p>
+      <p>you can use comments to prevent execution of block of code</p>
+      <p>single line and multiline comments are supported javascript</p>
     </div>
     <!-- Top information End-->
 
-    <!--Example -->
+    <!--Example 1-->
 <hr>
 <div class="Example-info">
 
-  <h2>Simple Example </h2>
-    <p>Below code will print data to console</p>
+  <h2>Single-line comments</h2>
+    <p>'//'  is used for single line comments</p>
   </div>
 
 <div class="exampe-box">
 <div class="code-play">
 <pre>
-console.log("Hello-World");
+// This line will not executed
+
+var x = 5;           // declared the variable x of value 5
+
+console.log("x"); 
+//code prints x to console
 </pre>
 </div>
 <div class="example-output">
 <h3>OUTPUT</h3>
-<p>Hello-World //output in console</p>
+<p>5 //output in console</p>
 </div>
 </div>
-  <!--Example End -->
+  <!--Example End 1-->
+
+    <!--Example 2-->
+<hr>
+<div class="Example-info">
+
+  <h2>Multi-line comments</h2>
+    <p>'/*' and  '*/' is used for Multi-line comments</p>
+    <p>code between /*  ---- */ will not be executed</p>
+  </div>
+
+<div class="exampe-box">
+<div class="code-play">
+<pre>
+/*
+ These lines will not executed
+ This is Multi-line comment Syntax
+ declared the variable x of value 5
+ code prints x to console
+*/
+var x = 5; 
+console.log("x");
+</pre>
+</div>
+<div class="example-output">
+<h3>OUTPUT</h3>
+<p>5 //output in console</p>
+</div>
+</div>
+  <!--Example End 2-->
+
 
 <!--Green note-->
 <div class="give-note">
-<p>Follow this tutorial to learn javascript from basic to advanced</p>
-<p>Go through the tutorial in a sequence way</p>
-<p>Every topic will contain a example</p>
+<p>it's a good practice to comment what you are doing</p>
 </div>
 <!--Green note End-->
 
-<!--Buttom Buttons-->
-<div class="pre-next-buttons">
-<button type="button" class="btn btn-primary Previous-button" 
-onclick="window.location.href='javascript_intro.html'">
-<i class="fas fa-caret-left"></i> Previous</button>
 
-<button type="button" class="btn btn-primary Next-button" 
-onclick="window.location.href='javascript_Syntax.html'">
-Next <i class="fas fa-caret-right"></i></button>
-</div>
+<!--Buttom Buttons-->
+<div class="pre-next-buttons" id ="pre-next-buttons"></div>
+<script src="Container/next_previvious.js" type="text/javascript"></script>
+<!--Buttom Buttons End-->
+<script>
+  window.next_previous('javascript_intro.html','javascript_Syntax.html');
+  //previous and next button
+ </script> 
 <!--Buttom Buttons End-->
 
 
