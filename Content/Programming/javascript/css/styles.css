@@ -241,6 +241,9 @@ li a:hover {
     padding: 0 0;
   }
 
+  .icons{
+    display: none;
+  }
 
 }
 
