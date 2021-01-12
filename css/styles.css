@@ -241,7 +241,9 @@ li a:hover {
   }
 
  
-  
+  .icons{
+    display: none;
+  }
 
 
 }
@@ -253,9 +255,7 @@ li a:hover {
     display: none;
   }
  
-  .icons{
-    display: none;
-  }
+ 
  
 
 }
@@ -396,7 +396,7 @@ padding-top: 16px;
   font-size: 35px;
   color: white;
   margin-right: 35px;
-  display: block;
+
 }
 
 
