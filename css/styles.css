@@ -251,7 +251,7 @@ li a:hover {
   .menu-button{
     display: none;
   }
-  .social_media{
+  #social_media{
     display: block;
   }
 
