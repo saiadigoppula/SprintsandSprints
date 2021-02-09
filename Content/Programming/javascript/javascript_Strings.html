@@ -1,14 +1,9 @@
 ﻿<!DOCTYPE html>
 <html lang="en" dir="ltr" style="height: 100%;">
   <head>
-  <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    <title>Buildcodenow</title>
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css" integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <script defer src="https://use.fontawesome.com/releases/v5.0.7/js/all.js"></script>
-    <link rel="icon" href="favicon.ico">
-    <link rel="stylesheet" href="css/styles.css">
-    <link rel="stylesheet" href="index.css">
+    <div id="html_header" > </div>
+    <script src="Container/header.js" type="text/javascript"></script>
+    <script>page_name('JavaScript Strings');</script>
   </head>
 
 <body>
@@ -38,13 +33,6 @@
 
 
 
-
-
-
-
-
-
-
 <!-- Center Content  End -->
   <div class="col-md-10" id="home_content">
    
@@ -52,7 +40,7 @@
 
 
     <div class="subject-title">
-      JavaScript Introduction
+      JavaScript Strings
     </div>
 
 <!--Buttom Buttons-->
@@ -63,34 +51,174 @@
     
     <!-- Top information -->
     <div class="topic-info">
-      <p>JavaScript is the programming language of the Web.</p>
-      <p>JavaScript is easy to learn.</p> 
-      <p>javascript run on browser</p>
-      <p>Using javascript we add functionality to page</p>
-      <p>javascript developed by  Brendan Eich</p>
+      <p>JavaScript strings are most commonly used data types.</p>
+      <p>JavaScript strings are used to work with text.</p> 
+      <p>javascript strings can be written in single quotes or double quotes</p>
     </div>
     <!-- Top information End-->
 
-    <!--Example -->
+    <!--Example 1-->
 <hr>
 <div class="Example-info">
 
-  <h2>Hard Example </h2>
-    <p>Above code will print data to console</p>
+  <h2>String Example </h2>
+    <p>Below code will print strings x and y  to console</p>
   </div>
 
 <div class="exampe-box">
 <div class="code-play">
 <pre>
-console.log("Hello-World");
+var x = 'GivenSprint';
+var y ="Hello World";
+console.log(x);
+console.log(y);
 </pre>
 </div>
 <div class="example-output">
 <h3>OUTPUT</h3>
-<p>Hello-World //output in console</p>
+<pre>
+//output in console
+GivenSprint
+Hello World
+</pre>
 </div>
 </div>
   <!--Example End -->
+
+
+     <!--Example 2-->
+<hr>
+<div class="Example-info">
+
+  <h2>Quotes inside String </h2>
+    <p>Quotes inside string should not match to outer quotes</p>
+  </div>
+
+<div class="exampe-box">
+<div class="code-play">
+<pre>
+var x = 'I "Love" my country';
+var y ="This is my first 'Job'";
+console.log(x);
+console.log(y);
+</pre>
+</div>
+<div class="example-output">
+<h3>OUTPUT</h3>
+<pre>
+//output in console
+I "Love" my country
+This is my first 'Job'
+</pre>
+</div>
+</div>
+  <!--Example End -->
+
+
+     <!--Example 3-->
+     <hr>
+     <div class="Example-info">
+     
+       <h2>Single , Double quote and Backslash</h2>
+         <p>Single quote should be written as \' .</p>
+         <p>Double quote should be written as \" .</p>
+         <p>Backslash quote should be written as \\ .</p>
+       </div>
+     
+<div class="exampe-box">
+<div class="code-play">
+<pre>
+var single = 'It\'s my job';
+var double ="Double quote is written as \" this way";
+var backslash ="Backslash is written as \\ this way";
+console.log(single);
+console.log(double);
+console.log(backslash);
+</pre>
+</div>
+     <div class="example-output">
+     <h3>OUTPUT</h3>
+<pre>
+  //output in console
+  It's my job
+  Double quote is written as " this way
+  Backslash is written as \ this way
+</pre>
+     </div>
+     </div>
+       <!--Example End -->
+
+     <!--Example 4-->
+     <hr>
+     <div class="Example-info">
+     
+       <h2>String concatenation</h2>
+         <p>Combining two strings.</p>
+         <p>You can concate two or more strings using '+' operator or</p>
+         <p>String concat() Method.</p>
+       </div>
+     
+<div class="exampe-box">
+<div class="code-play">
+<pre>
+var x = 'Hello';
+var y ='world';
+var z = x+y;
+var str = x.concat(y);
+console.log(z);
+console.log(str);
+</pre>
+</div>
+     <div class="example-output">
+     <h3>OUTPUT</h3>
+<pre>
+//output in console
+Helloworld
+Helloworld
+</pre>
+     </div>
+     </div>
+       <!--Example End -->
+
+
+
+     <!--Example 5-->
+     <hr>
+     <div class="Example-info">
+     
+   <h2>String as Object</h2>
+  <p>String can be object also.</p>
+  <p>By using new we can create Obeject string.</p>
+  </div>
+     
+<div class="exampe-box">
+<div class="code-play">
+<pre>
+var x = 'Hello world';
+var y = new String("Hello world");
+
+console.log("type of string is :"+typeof x);
+console.log("type of string is :"+typeof y);
+</pre>
+</div>
+     <div class="example-output">
+     <h3>OUTPUT</h3>
+<pre>
+//output in console
+type of string is :string
+type of string is :object
+</pre>
+     </div>
+     </div>
+       <!--Example End -->
+
+
+
+
+
+
+
+
 
 <!--Green note-->
 <div class="give-note">
@@ -105,7 +233,7 @@ console.log("Hello-World");
 <script src="Container/next_previvious.js" type="text/javascript"></script>
 <!--Buttom Buttons End-->
 <script>
-  window.next_previous('../../../index.html','javascript_Comments.html');
+  window.next_previous('javascript_Data_Types.html','javascript_String_Methods.html');
   //previous and next button
  </script> 
 
@@ -141,7 +269,7 @@ console.log("Hello-World");
 <script src="Container/index.js" type="text/javascript"></script>
 
 <script>
- document.getElementsByClassName("javascript_intro")[0].classList.add("active");
+ document.getElementsByClassName("javascript_Strings")[0].classList.add("active");
 </script>
 </body>
 </html>
